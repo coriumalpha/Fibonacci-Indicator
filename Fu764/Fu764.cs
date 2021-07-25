@@ -22,9 +22,9 @@ using VisualChart.Development.Runtime.Plugins;
 namespace Fu764
 {
     /// <summary>
-    /// Fibonacci based oscillator (volume dependant)
+    /// Fibonacci based indicator (volume dependant)
     /// </summary>
-    [Indicator(Name = "Fibonacci Oscillator", Description = "Fibonacci based oscillator (volume dependant)")]
+    [Indicator(Name = "Fibonacci", Description = "Fibonacci based indicator (volume dependant)")]
     [Properties(Window = TargetWindow.DataSeriesWindow)]
     [OutputSeriesProperties(Line = 1, Name = "Fu1")]
     [OutputSeriesProperties(Line = 2, Name = "fu764")]
